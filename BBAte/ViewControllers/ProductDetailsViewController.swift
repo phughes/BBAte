@@ -12,6 +12,7 @@ class ProductDetailsViewController: UIViewController {
     var product: Product? = nil
 
     @IBOutlet var imageView: UIImageView!
+    @IBOutlet var skuLabel: UILabel!
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var descriptionLabel: UILabel!
     @IBOutlet var priceLabel: UILabel!
@@ -34,6 +35,7 @@ class ProductDetailsViewController: UIViewController {
 
         guard let product = product else { return }
         self.imageView.setImage(with: product.imageUrl)
+        self.skuLabel.text = "sku# \(product.sku)"
         self.nameLabel.text = product.name
         self.descriptionLabel.text = product.description
         self.priceLabel.text =  nf.string(for: product.price)

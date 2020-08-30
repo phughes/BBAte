@@ -106,6 +106,7 @@ extension SearchResultsTableViewController: UITableViewDataSourcePrefetching {
             let product = self.searchResults.productAtIndexPath(indexPath)!
 
             cell.productImageView.setImage(with: product.imageUrl)
+            cell.skuLabel.text = "\(product.sku)"
             cell.nameLabel.text = product.name
             cell.priceLabel.text = numberFormatter.string(for: product.price)
             if let rating = product.rating {

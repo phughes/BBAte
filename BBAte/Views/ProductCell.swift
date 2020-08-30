@@ -10,6 +10,7 @@ import UIKit
 
 class ProductCell: UITableViewCell {
     @IBOutlet var productImageView: UIImageView!
+    @IBOutlet var skuLabel: UILabel!
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var priceLabel: UILabel!
     @IBOutlet var ratingView: RatingView!
