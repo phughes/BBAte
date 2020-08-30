@@ -40,4 +40,9 @@ class ProductDetailsViewController: UIViewController {
         self.ratingView.rating = product.rating ?? 0
         self.ratingCountLabel.text = "(\(product.ratingCount ?? 0))"
     }
+
+    @IBAction func openBrowser(_ sender: UIButton) {
+        guard let url = product?.url else { return }
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
 }
