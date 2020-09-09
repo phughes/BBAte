@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4303275C250948E9008D43C1 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4303275B250948E9008D43C1 /* LICENSE */; };
 		43CEB5D924FAB55800323921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CEB5D824FAB55800323921 /* AppDelegate.swift */; };
 		43CEB5DB24FAB55800323921 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CEB5DA24FAB55800323921 /* SceneDelegate.swift */; };
 		43CEB5DD24FAB55800323921 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CEB5DC24FAB55800323921 /* SearchResultsTableViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4303275B250948E9008D43C1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4353E61924FC429E00E0EC85 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		43CEB5D524FAB55800323921 /* BBAte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBAte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CEB5D824FAB55800323921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				4353E61924FC429E00E0EC85 /* README.md */,
+				4303275B250948E9008D43C1 /* LICENSE */,
 				43CEB5D724FAB55800323921 /* BBAte */,
 				43CEB5EE24FAB55900323921 /* BBAteTests */,
 				43CEB5D624FAB55800323921 /* Products */,
@@ -293,6 +296,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4303275C250948E9008D43C1 /* LICENSE in Resources */,
 				43CEB5E524FAB55900323921 /* LaunchScreen.storyboard in Resources */,
 				43CEB5E224FAB55900323921 /* Assets.xcassets in Resources */,
 				43CEB5E024FAB55800323921 /* Main.storyboard in Resources */,
